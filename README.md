@@ -32,16 +32,3 @@ As someone passionate about AI/ML and full-stack development, I developed this s
 - **Deployment:** Local or cloud (Heroku / AWS / GCP) as a web service  
 
 ---
-
-## Project structure
-
-```text
-SHL-Recommendation/
-├── app.py                # Entry point for the web application
-├── recommendation.py     # Core logic: parse input, match assessments, rank output
-├── catalog.csv           # Catalogue of SHL assessments with metadata (skills, duration, etc.)
-├── templates/            # HTML templates for UI (input form + results display)
-│   ├── index.html
-│   └── result.html
-├── static/               # CSS, JS, images (if any)
-└── README.md             # This file
